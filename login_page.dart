@@ -15,10 +15,10 @@ class loginpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.black,
         elevation: 0,
         systemOverlayStyle: SystemUiOverlayStyle.light ,
-        iconTheme: IconThemeData(color: Colors.black),),
+        iconTheme: IconThemeData(color: Colors.white),),
       body: SafeArea(
         child: Column(
 
